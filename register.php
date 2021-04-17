@@ -53,14 +53,6 @@
             <input type="text" name="phon">
         </div>
         
-        <!-- end-->
-        <input type="text" name="Number" pattern="[0-9]{1,}" title="กรอกตัวเลขเท่านั้น" required><br/>
-        <input type="text" name="Test" pattern="[A-Za-zก-ฮ]{1,}" title="กรอกตัวอักษรเท่านั้น" required>
-
-
-
-
-
         <div class="input-group">
             <label for="username">Username</label>
             <input type="text" name="username">
