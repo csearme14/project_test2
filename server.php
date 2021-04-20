@@ -13,7 +13,7 @@
     }
     else
     {
-        echo "connet database";
+        echo "connect database";
     }
 
 ?>

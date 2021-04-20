@@ -33,33 +33,34 @@
 
         <div class="input-group">
             <label for="fullname">ชื่อ-สกุล</label>
-            <input type="text" name="fullname">
+            <input type="text" name="fullname" title="กรอกชื่อ-สกุล" required >
         </div>
         <div class="input-sex">
             <Input type="radio" name="sex" value="male"checked>เพศชาย
             <Input type="radio" name="sex" value="female">เพศหญิง
         </div>
-        <div class="input-group">
+        <!-- div class="input-group">
             <label for="age">อายุ</label>
             <input type="text" name="age">
-        </div>
+        </-div-->
         <div class="input-group">
             <label for="id_card">บัตรประชาชน</label>
             <input type="text" name="id_card">
         </div>
 
-            <!--ทดลอง partern-->
-            ^(?: เริ่มต้น)$ สุดท้าย
+            <!--ทดลอง partern
+            ^(?: เริ่มต้น)$ สุดท้าย 
         <div class="input-group">
             <label for="old-test">pattern</label>
             <input type="tel" name="old-test" pattern="[a-z]{5,}" title="กรอกอายุระหว่าง 15-65 ปี" required>
-        </div>
-            [A-Za-z0-9_]{1,15} 
+        </div> 
+         [A-Za-z0-9_]{1,15} -->
+         
         <div class="input-group">
             <label for="old-test">อายุ</label>
             <input type="tel" name="old-test" pattern="^(?:1[5-9]|[2-5][0-9]6[0-5])$" title="กรอกอายุระหว่าง 15-65 ปี" required>
         </div>
-        ^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$
+        <!-- ^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$ -->
         <div class="input-group">
         <label for="phon">เบอร์โทร</label>
         <input type="tel" name="Test_tel" pattern="\d{3}\d{3}\d{4}" title="กรอกเบอร์โทรศัทพ์" required>
@@ -71,16 +72,16 @@
             <input type="text" name="username">
         </div>
         <div class="input-group">
-            <label for="email">Email</label>
-            <input type="email" name="email">
-        </div>
-        <div class="input-group">
             <label for="password_1">Password</label>
             <input type="password" name="password_1">
         </div>
         <div class="input-group">
             <label for="password_2">Confirm Password</label>
             <input type="password" name="password_2">
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email">
         </div>
         <div class="input-group">
             <button type="submit" name="reg_user" class="btn">Register</button>
