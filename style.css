@@ -12,7 +12,7 @@ body {
     width: 30%;
     margin: 50px auto 0px;
     color: white;
-    background: #5f9ea0;
+    background: #a07c5f;
     text-align: center;
     border: 1px solid #b0c4de;
     border-bottom: none;
@@ -38,7 +38,7 @@ form {
     text-align: center;
     padding-top: 3rem;
     width: 100%;
-    background: #ccc;
+    background: rgb(160, 238, 231);
     height: 100vh;
 }
 
@@ -59,14 +59,14 @@ form {
     padding: 5px 10px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid gray;   
+    border: 1px solid gray;
 }
 
 .btn {
     padding: 10px;
     font-size: 15px;
     color: white;
-    background: #5f9ea0;
+    background: #61a05f;
     border: none;
     border-radius: 5px;
 }

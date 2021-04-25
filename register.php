@@ -39,10 +39,10 @@
             <Input type="radio" name="sex" value="male"checked>เพศชาย
             <Input type="radio" name="sex" value="female">เพศหญิง
         </div>
-        <!-- div class="input-group">
+        <div class="input-group">
             <label for="age">อายุ</label>
             <input type="text" name="age">
-        </-div-->
+        </div>
         <div class="input-group">
             <label for="id_card">บัตรประชาชน</label>
             <input type="text" name="id_card">
@@ -56,16 +56,15 @@
         </div> 
          [A-Za-z0-9_]{1,15} -->
          
-        <div class="input-group">
+        <!--div class="input-group">
             <label for="old-test">อายุ</label>
             <input type="tel" name="old-test" pattern="^(?:1[5-9]|[2-5][0-9]6[0-5])$" title="กรอกอายุระหว่าง 15-65 ปี" required>
-        </div>
-        <!-- ^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$ -->
+        </-div>
+        < ^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$ -->
+
         <div class="input-group">
-        <label for="phon">เบอร์โทร</label>
-        <input type="tel" name="Test_tel" pattern="\d{3}\d{3}\d{4}" title="กรอกเบอร์โทรศัทพ์" required>
-            <!--label for="phon">เบอร์โทร</-label>
-            <input type="text" name="phon"-->
+            <label for="phon">เบอร์โทร</-label>
+            <input type="text" name="phon">
         </div>
         <div class="input-group">
             <label for="username">Username</label>

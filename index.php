@@ -23,12 +23,10 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body>  
     <div class="homeheader">
         <h2>Home Page</h2>
     </div>
-
     <div class="homecontent">
         <!--  notification message -->
         <?php if (isset($_SESSION['success'])) : ?>
@@ -47,6 +45,8 @@
             <p>ยินดีต้อนรับ <strong><?php echo $_SESSION['username']; ?></strong></p>
             <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
         <?php endif ?>
+        
+        <br><img src="รถมอเตอร์ไซต์.jpg">
     </div>
 
 </body>
