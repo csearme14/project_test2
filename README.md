@@ -13,4 +13,4 @@
        	age int(3) not null,
        	id_card int(13) not null,
         phon int(10) not null
-        ) ENGINE = INNODB DEFAULT CHARACTER=utf8;
+        ) ENGINE = INNODB DEFAULT CHARSET=utf8;
