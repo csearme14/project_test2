@@ -12,5 +12,5 @@
         age int(3) not null,
        	id_card varchar (13) not null,
         phon varchar(10) not null,
-        sex varchar(3) not null
-        ) ENGINE = INNODB DEFAULT CHARSET=utf8;
+        sex varchar(10) not null
+        ) ENGINE = INNODB DEFAULT CHARSET=utf8;;
