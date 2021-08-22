@@ -6,11 +6,11 @@
      CREATE TABLE user (
      	id int(11) NOT null AUTO_INCREMENT PRIMARY KEY ,
         username varchar(50) not null,
-        email varchar(50) not null,
         password varchar(50) not null,
+       	email varchar(50) not null,
         fullname varchar(50) not null,
-       	sex varchar(3) not null,
-       	age int(3) not null,
-       	id_card int(13) not null,
-        phon int(10) not null
+        age int(3) not null,
+       	id_card varchar (13) not null,
+        phon varchar(10) not null,
+        sex varchar(3) not null
         ) ENGINE = INNODB DEFAULT CHARSET=utf8;
